@@ -625,6 +625,7 @@ body {
 /* -----------------footer-right--------------------- */
 .right-footer {
   display: flex;
+  margin-left: 93px;
 }
 
 .right-footer-input {
