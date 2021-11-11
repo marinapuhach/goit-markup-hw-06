@@ -860,9 +860,17 @@ focus {
 /* ---------modal-form----------- */
 
 .modal-cross-icon:hover,
-.modal-form-btn:focus {
+.modal-cross-icon:focus {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  fill: var(--accent-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .backdrop {
@@ -896,6 +904,7 @@ focus {
 
 .modal-btn {
   border: 1px solid rgba(0, 0, 0, 0.1);
+
   background-color: transparent;
   width: 30px;
   height: 30px;
@@ -1014,7 +1023,6 @@ focus {
   background-color: var(--accent-color);
   background-image: url(../img/Vector.svg);
   border-color: var(--accent-color);
-  background-origin: border-box;
   background-repeat: no-repeat;
 }
 
