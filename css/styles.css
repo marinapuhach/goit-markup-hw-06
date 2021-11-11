@@ -1007,15 +1007,15 @@ focus {
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
-  background-color: var(--accent-color);
-  background-image: url(../img/Vector.svg);
-  border: 2px solid var(--primary-title-color);
+  border: 2px solid var(--accent-color);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-color: var(--accent-color);
   background-image: url(../img/Vector.svg);
   border-color: var(--accent-color);
+  background-origin: border-box;
+  background-repeat: no-repeat;
 }
 
 .modal-form-checkbox-label {
